@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FMS_Master.master.cs" Inherits="FMS_Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/FMS_styles.css" rel="Stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="wrap">
+    <div id="header">
+        <img src="Image/FMS_banner.jpg" alt=""/>
+       </div>
+    <div id="nav">
+        Welcome 
+        <asp:Label ID="userLabel" runat="server"></asp:Label>
+        <br />
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+            StaticDisplayLevels="3">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </div>
+    <div id="main">
+    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+            </asp:SiteMapPath>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+        Copyright &copy; 2014 Facility Management System. All rights reserved.
+    </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

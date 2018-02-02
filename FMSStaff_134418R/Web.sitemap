@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Home.aspx" title="Home"  description="Home">
+
+      <siteMapNode url="~/EditProfile.aspx" title="Edit Profile"  description="Edit Profile"/>
+      
+
+      <siteMapNode url="~/BookingFacility.aspx" title="Booking Facility"  description="Booking Facility"/>
+        <siteMapNode url="~/BookingCancellation.aspx" title="Booking Cancellation"  description="Booking Cancellation"/>
+        <siteMapNode url="~/ViewBooking.aspx" title="View Booking"  description="View Booking">
+
+      <siteMapNode url="~/ViewBookingByResourceType.aspx" title="By Resource Type"  description="View Booking By Resource"/>
+        <siteMapNode url="~/ViewBookingByDate.aspx" title="By Date"  description="View Booking by Date"/>
+        <siteMapNode url="~/ViewBookingByStaff.aspx" title="By Staff"  description="View Booking By Staff"/>
+      </siteMapNode>
+
+  <siteMapNode url="SearchBooking.aspx" title="Search Booking"  description="Search Booking">
+        <siteMapNode url="~/SearchBookingByResourceType.aspx" title="By Resource Type"  description="Search Booking By Resource"/>
+        <siteMapNode url="~/SearchBookingByResourceID.aspx" title="By Resource ID"  description="Search Booking By Resource ID"/>
+        <siteMapNode url="~/SearchBookingByResourceName.aspx" title="By Resource Name"  description="Search Booking By Resource Name"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/Logout.aspx" title="Logout"  description="Logout"/>
+      </siteMapNode>
+      
+</siteMap>

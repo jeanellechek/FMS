@@ -1,0 +1,50 @@
+body,
+	html {
+		margin:0;
+		padding:0;
+		
+		
+	}
+	#wrap {
+		width:960px;
+		margin:0 auto;
+		
+	}
+	#header {
+    	
+		background-color:#A6FFFF;
+	}
+	h1 {
+	    margin:0;
+    }
+	
+	
+	#nav {
+		float:left;
+		width:230px;
+		padding:10px;
+		height:400px;
+		background-color:#A6FFFF;
+	}
+	#main {
+		float:left;
+		width:690px;
+		padding:10px;
+		height:400px;
+		background-color:white;
+	}
+	h2 {
+		margin:0 0 1em;
+	}
+	#footer {
+		clear:both;
+		padding:5px 10px;
+		text-align:center;
+		background-color:#A6FFFF;
+	}
+	#footer p 
+	{
+	    
+		margin:0;
+		
+    }
